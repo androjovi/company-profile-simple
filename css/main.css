@@ -1,0 +1,80 @@
+.no-shadows {
+  box-shadow: none !important;
+}
+
+.bg-info {
+  background-color: grey;
+  height: 70vh;
+  position: relative;
+}
+
+.icon-box {
+  width: 150px;
+  line-height: 150px !important;
+  font-size: 70px !important;
+  position: relative;
+  border-radius: 50%;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+.slideUp {
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+  transition: transform .5s ease-out;
+}
+
+.slideDown {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform .5s ease-out;
+  border-bottom: 2px solid grey;
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: black !important;
+
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  z-index: 999999999999999999;
+}
+
+.slide-car {
+  height: 70vh;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.pembatas {
+  width: 15%;
+  margin-top: 40px;
+  border: 1px solid black;
+}
+
+.brand-logo {
+  position: relative;
+  top: -60px;
+}
